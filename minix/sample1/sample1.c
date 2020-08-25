@@ -3,8 +3,8 @@
 #include <minix/syslib.h>
 
 int main(int argc, char **argv) {
-	sef_startup();
+    sef_startup();
 
-	printf("Hello, World!\n");
-	return EXIT_SUCCESS;
+    printf("Hello, World!\n");
+    return EXIT_SUCCESS;
 }
